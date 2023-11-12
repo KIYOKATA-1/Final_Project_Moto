@@ -7,7 +7,7 @@ public class Motorcycle {
     private String description;
 
 
-    public Motorcycle(String brand, String model, String color, int maxSpeed, double price, String description){
+    public Motorcycle(String brand, String model, String color, double price){
         this.brand = brand;
         this.model = model;
         this.color = color;
