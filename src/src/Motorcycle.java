@@ -4,14 +4,16 @@ public class Motorcycle {
     private String color;
     private int maxSpeed;
     private double price;
+    private String description;
 
 
-    public Motorcycle(String brand, String model, String color, int maxSpeed, double price){
+    public Motorcycle(String brand, String model, String color, int maxSpeed, double price, String description){
         this.brand = brand;
         this.model = model;
         this.color = color;
         this.maxSpeed = maxSpeed;
         this.price = price;
+        this.description = description;
     }
 
     public String getBrand() {
@@ -32,5 +34,9 @@ public class Motorcycle {
 
     public double getPrice() {
         return price;
+    }
+
+    public String getDescription() {
+        return description;
     }
 }
